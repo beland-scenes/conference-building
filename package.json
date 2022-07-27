@@ -1,0 +1,24 @@
+{
+  "name": "beland-conference-building",
+  "version": "1.0.0",
+  "description": "My new Beland project",
+  "scripts": {
+    "start": "bld start",
+    "build": "build-ecs",
+    "watch": "build-ecs --watch",
+    "deploy": "bld deploy",
+    "ecs:install": "npm install --save-dev beland-ecs@latest",
+    "ecs:install-next": "npm install --save-dev beland-ecs@next"
+  },
+  "devDependencies": {
+    "beland-ecs": "^0.0.6-dev"
+  },
+  "dependencies": {
+    "@beland/ecs-scene-utils": "^0.0.2-dev",
+    "@beland/ui-scene-utils": "^0.0.1-development",
+    "beland": "^1.0.1"
+  },
+  "bundleDependencies": [
+    "@beland/ecs-scene-utils"
+  ]
+}
